@@ -13,13 +13,23 @@
             android:id="@+id/myTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
             android:gravity="center"
             android:text="     Parent Project that implements SDK"
             android:textColor="@android:color/black"
             android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Me"
+            android:layout_margin="16dp"
+            android:padding="12dp"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:onClick="onButtonClick"
             tools:ignore="MissingConstraints" />
 
 

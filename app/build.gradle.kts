@@ -41,6 +41,8 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
 
-    implementation ("com.github.nmnfaisal:SDK2:1.0.4")
+//    implementation ("com.github.nmnfaisal:SDK2:1.0.4")
+    implementation(files("../libs/LibraryEML-debug.aar"))
+
 
 }
